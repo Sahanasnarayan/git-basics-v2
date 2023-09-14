@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document Object Model</title>
+    <style>
+        .container {
+            margin: 25vh;
+            border: solid;
+            padding: 30px;
+            background-color: black;
+            color: white;
+        }
+
+        #main-heading {
+            color: white;
+        }
+
+        .list-items {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="main-heading">Favourite Movie Franchise <span style="display:none">Good movies only!</span></h1>
+        <ul>
+            <hr>
+            <li name="first-item" class="list-items">The Matrix</li>
+            <hr>
+            <li class="list-items">Star Wars</li>
+            <hr>
+            <li class="list-items">Harry Potter</li>
+            <hr>
+            <li class="list-items">Hera Pheri</li>
+            <hr>
+            <li class="list-items">Dhamal</li>
+            <hr>
+        </ul>
+        <br>
+        <form action="/" method="get">
+            Enter first Number: <input type="text" name="num1" id="num1" value="23"> <br>
+            Enter Second Number: <input type="text" name="num2" id="num2" value="41"> <br>
+            Enter Output Number: <input type="text" name="output" id="output"> <br>
+            <input type="button" id="add" value="Add"> <input type="button" id="multiply" value="Multiply">
+        </form>
+
+        <!-- <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul> -->
+    </div>
+    <div id="second-div">
+        "This is a DOM tutorial."
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
